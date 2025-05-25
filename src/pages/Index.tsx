@@ -45,44 +45,52 @@ const Index = () => {
                 <span className="text-alessi-gold animate-pulse-gold">
                   SALIF
                 </span>
+                <br />
+                <span className="text-3xl lg:text-4xl text-gray-300">
+                  МЕТАЛЛИЧЕСКИЙ ПАУК
+                </span>
               </h1>
               <p className="text-xl lg:text-2xl text-gray-300 mb-8 font-noto leading-relaxed">
-                Культовая соковыжималка от Philippe Starck.
+                Культовая соковыжималка-паук от Philippe Starck.
                 <br />
-                <span className="text-alessi-gold">Шедевр дизайна</span> в вашей
-                кухне.
+                <span className="text-alessi-gold font-bold">
+                  Самый узнаваемый дизайн
+                </span>{" "}
+                в истории кухонной утвари.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
-                <button className="btn-gold text-lg">
-                  КУПИТЬ СЕЙЧАС • ₽24,990
+                <button className="bg-red-600 hover:bg-red-700 text-white font-bold px-8 py-4 rounded-lg transform transition-all duration-300 hover:scale-105 shadow-2xl text-lg animate-pulse">
+                  🔥 КУПИТЬ СЕЙЧАС • ₽24,990
                 </button>
-                <button className="btn-gold-outline">УЗНАТЬ БОЛЬШЕ</button>
+                <button className="btn-gold-outline text-lg">
+                  СМОТРЕТЬ ВИДЕО
+                </button>
               </div>
 
               {/* Urgency Timer */}
-              <div className="bg-red-600 text-white px-6 py-4 rounded-lg inline-block animate-pulse">
-                <p className="font-bold mb-2">
-                  🔥 СПЕЦИАЛЬНАЯ ЦЕНА ИСТЕКАЕТ ЧЕРЕЗ:
+              <div className="bg-gradient-to-r from-red-600 to-red-700 text-white px-6 py-4 rounded-lg inline-block shadow-2xl border-2 border-red-500">
+                <p className="font-bold mb-2 text-lg">
+                  ⚡ ПОСЛЕДНИЙ ДЕНЬ СКИДКИ 30%!
                 </p>
                 <div className="flex gap-4 text-2xl font-russo">
                   <div className="text-center">
-                    <div className="bg-alessi-dark px-3 py-2 rounded">
+                    <div className="bg-alessi-dark px-4 py-3 rounded border-2 border-alessi-gold">
                       {timeLeft.hours}
                     </div>
-                    <div className="text-xs">ЧАСОВ</div>
+                    <div className="text-xs font-bold">ЧАСОВ</div>
                   </div>
                   <div className="text-center">
-                    <div className="bg-alessi-dark px-3 py-2 rounded">
+                    <div className="bg-alessi-dark px-4 py-3 rounded border-2 border-alessi-gold">
                       {timeLeft.minutes}
                     </div>
-                    <div className="text-xs">МИНУТ</div>
+                    <div className="text-xs font-bold">МИНУТ</div>
                   </div>
                   <div className="text-center">
-                    <div className="bg-alessi-dark px-3 py-2 rounded">
+                    <div className="bg-alessi-dark px-4 py-3 rounded border-2 border-alessi-gold">
                       {timeLeft.seconds}
                     </div>
-                    <div className="text-xs">СЕКУНД</div>
+                    <div className="text-xs font-bold">СЕКУНД</div>
                   </div>
                 </div>
               </div>
@@ -106,34 +114,34 @@ const Index = () => {
       <section className="py-20 bg-alessi-white">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl lg:text-5xl font-russo text-alessi-dark text-center mb-16">
-            ПОЧЕМУ <span className="text-alessi-gold">ALESSI SALIF?</span>
+            ПОЧЕМУ <span className="text-alessi-gold">МЕТАЛЛИЧЕСКИЙ ПАУК?</span>
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center p-8 bg-gray-50 rounded-xl hover:shadow-xl transition-all duration-300">
-              <div className="text-6xl mb-6">🎨</div>
+            <div className="text-center p-8 bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-alessi-gold">
+              <div className="text-6xl mb-6">🕷️</div>
               <h3 className="text-2xl font-russo text-alessi-dark mb-4">
-                ДИЗАЙН-ИКОНА
+                ДИЗАЙН-ПАУК
               </h3>
               <p className="text-gray-600 font-noto leading-relaxed">
-                Создана Philippe Starck в 1990 году. Находится в коллекциях MoMA
-                и других ведущих музеев мира.
+                Три изящные "ножки" напоминают металлического паука. Этот
+                узнаваемый силуэт стал символом современного дизайна.
               </p>
             </div>
 
-            <div className="text-center p-8 bg-gray-50 rounded-xl hover:shadow-xl transition-all duration-300">
+            <div className="text-center p-8 bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-alessi-gold">
+              <div className="text-6xl mb-6">🏛️</div>
+              <h3 className="text-2xl font-russo text-alessi-dark mb-4">
+                В МУЗЕЯХ МИРА
+              </h3>
+              <p className="text-gray-600 font-noto leading-relaxed">
+                Находится в коллекциях MoMA, Design Museum London. Признан одним
+                из важнейших объектов дизайна XX века.
+              </p>
+            </div>
+
+            <div className="text-center p-8 bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-alessi-gold">
               <div className="text-6xl mb-6">⚡</div>
-              <h3 className="text-2xl font-russo text-alessi-dark mb-4">
-                ФУНКЦИОНАЛЬНОСТЬ
-              </h3>
-              <p className="text-gray-600 font-noto leading-relaxed">
-                Эргономичная форма и продуманные детали обеспечивают удобство
-                использования каждый день.
-              </p>
-            </div>
-
-            <div className="text-center p-8 bg-gray-50 rounded-xl hover:shadow-xl transition-all duration-300">
-              <div className="text-6xl mb-6">💎</div>
               <h3 className="text-2xl font-russo text-alessi-dark mb-4">
                 ПРЕМИУМ КАЧЕСТВО
               </h3>
