@@ -113,13 +113,3 @@
     @apply font-russo;
   }
 }
-
-@layer components {
-  .btn-gold {
-    @apply bg-alessi-gold text-alessi-dark font-bold px-8 py-4 rounded-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl active:scale-95;
-  }
-
-  .btn-gold-outline {
-    @apply border-2 border-alessi-gold text-alessi-gold font-bold px-8 py-4 rounded-lg transform transition-all duration-300 hover:bg-alessi-gold hover:text-alessi-dark hover:scale-105;
-  }
-}
