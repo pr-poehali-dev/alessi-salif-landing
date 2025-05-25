@@ -85,6 +85,16 @@
   }
 }
 
+@layer components {
+  .btn-gold {
+    @apply bg-gradient-to-r from-alessi-gold to-yellow-500 text-alessi-dark font-bold px-8 py-4 rounded-lg transform transition-all duration-300 hover:scale-105 shadow-2xl hover:shadow-alessi-gold/50;
+  }
+
+  .btn-gold-outline {
+    @apply border-2 border-alessi-gold text-alessi-gold hover:bg-alessi-gold hover:text-alessi-dark font-bold px-8 py-4 rounded-lg transform transition-all duration-300 hover:scale-105 shadow-xl;
+  }
+}
+
 @layer base {
   * {
     @apply border-border;
